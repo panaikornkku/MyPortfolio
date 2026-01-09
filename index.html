@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio website of a Full Stack Developer"
+    />
+    <title>Portfolio - Full Stack Developer</title>
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <div class="nav-container">
+        <a href="#home" class="logo" aria-label="Home">
+          <i class="fas fa-code"></i> Portfolio
+        </a>
+        <ul class="nav-menu" role="menubar">
+          <li role="none">
+            <a href="#home" class="nav-link" role="menuitem"
+              ><i class="fas fa-home"></i> Home</a
+            >
+          </li>
+          <li role="none">
+            <a href="#about" class="nav-link" role="menuitem"
+              ><i class="fas fa-user"></i> About</a
+            >
+          </li>
+          <li role="none">
+            <a href="#skills" class="nav-link" role="menuitem"
+              ><i class="fas fa-laptop-code"></i> Skills</a
+            >
+          </li>
+          <li role="none">
+            <a href="#projects" class="nav-link" role="menuitem"
+              ><i class="fas fa-project-diagram"></i> Projects</a
+            >
+          </li>
+          <li role="none">
+            <a href="#contact" class="nav-link" role="menuitem"
+              ><i class="fas fa-envelope"></i> Contact</a
+            >
+          </li>
+        </ul>
+        <div
+          class="hamburger"
+          aria-label="Toggle navigation menu"
+          role="button"
+          tabindex="0"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero" aria-label="Hero section">
+      <div class="hero-content">
+        <h1>Panaikorn Maneeratchakit</h1>
+        <!-- <p class="role">
+          <i class="fas fa-laptop-code"></i> Full Stack Developer
+        </p> -->
+        <div class="cta-buttons">
+          <a href="#projects" class="btn btn-primary">
+            <i class="fas fa-briefcase"></i>
+            View Projects
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <i class="fas fa-paper-plane"></i>
+            Contact Me
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about fade-in" aria-labelledby="about-title">
+      <div class="container">
+        <h2 id="about-title" class="section-title">
+          <i class="fas fa-user-circle"></i> About Me
+        </h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>
+              I am a passionate software engineering student with experience in
+              developing web applications and RESTful APIs. My interests lie in
+              creating efficient, scalable, and user-friendly solutions that
+              bridge design and functionality. I enjoy solving technical
+              challenges, collaborating in teams, and continuously learning new
+              technologies to improve my craft. I’m eager to apply my skills and
+              enthusiasm to contribute to real-world software projects.
+            </p>
+            <a
+              href="assets/InternshipCV.pdf"
+              class="btn btn-primary"
+              download
+              aria-label="Download CV"
+            >
+              <i class="fas fa-download"></i>
+              Download CV
+            </a>
+          </div>
+          <div class="about-image">
+            <div>
+              <img
+                src="assets/profile.jpeg"
+                alt="Profile Picture of Panaikorn Maneeratchakit"
+                class="profile-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <!-- <section id="skills" class="skills fade-in" aria-labelledby="skills-title">
+        <div class="container">
+            <h2 id="skills-title" class="section-title">
+                <i class="fas fa-tools"></i> Skills & Technologies
+            </h2>
+            <div class="skills-container"> -->
+    <!-- Frontend Skills -->
+    <!-- <div class="skill-category">
+                    <h3>
+                        <i class="fas fa-code"></i>
+                        Frontend Development
+                    </h3>
+                    <div class="skill-list">
+                        <span class="skill-badge"><i class="fab fa-html5"></i> HTML/CSS</span>
+                        <span class="skill-badge"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="skill-badge"><i class="fab fa-react"></i> React</span>
+
+                    </div>
+                </div> -->
+
+    <!-- Backend Skills -->
+    <!-- <div class="skill-category">
+                    <h3>
+                        <i class="fas fa-server"></i>
+                        Backend Development
+                    </h3>
+                    <div class="skill-list">
+                        <span class="skill-badge"><i class="fab fa-node-js"></i> Node.js</span>
+                        <span class="skill-badge"><i class="fab fa-python"></i> Python</span>
+                        <span class="skill-badge"><i class="fas fa-database"></i> SQL/NoSQL</span>
+                        <span class="skill-badge"><i class="fas fa-plug"></i> REST APIs</span>
+                    </div>
+                </div> -->
+
+    <!-- Tools & Others -->
+    <!-- <div class="skill-category">
+                    <h3>
+                        <i class="fas fa-wrench"></i>
+                        Tools & Others
+                    </h3>
+                    <div class="skill-list">
+                        <span class="skill-badge"><i class="fab fa-git-alt"></i> Git/GitHub</span>
+                        <span class="skill-badge"><i class="fab fa-docker"></i> Docker</span>
+                        <span class="skill-badge"><i class="fab fa-aws"></i> AWS</span>
+                        <span class="skill-badge"><i class="fas fa-infinity"></i> CI/CD</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Projects Section -->
+    <section
+      id="projects"
+      class="projects fade-in"
+      aria-labelledby="projects-title"
+    >
+      <div class="container">
+        <h2 id="projects-title" class="section-title">
+          <i class="fas fa-rocket"></i> Featured Projects
+        </h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-image">
+              <!-- Slideshow container -->
+              <div class="slideshow-container" id="slideshow-1">
+                <!-- Full-width images with number and caption text -->
+                <div class="slide fade">
+                  <img src="assets/ac/ac1.png" style="width: 100%" />
+                </div>
+
+                <div class="slide fade">
+                  <img src="assets/ac/ac2.png" style="width: 100%" />
+                </div>
+
+                <div class="slide fade">
+                  <img src="assets/ac/ac3.png" style="width: 100%" />
+                </div>
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1, 'slideshow-1')"
+                  >&#10094;</a
+                >
+                <a class="next" onclick="plusSlides(1, 'slideshow-1')"
+                  >&#10095;</a
+                >
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">ac-express</h3>
+              <p class="project-description">
+                Next.js-based full-stack application that allows
+                users to search service centers by location, while providing an
+                admin dashboard with JWT authentication for managing store data
+                and images through Cloudinary integration
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://www.acexpressgroup.com/"
+                  class="project-link"
+                  aria-label="View live demo"
+                  target="_blank"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                  Live Demo
+                </a>
+                <a
+                  href="https://github.com/panaikornkku/AC-express"
+                  class="project-link secondary"
+                  aria-label="View GitHub repository"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-image">
+              <div class="slideshow-container" id="slideshow-2">
+                <!-- Full-width images with number and caption text -->
+                <div class="slide fade">
+                  <img src="assets/mplus/mplus1.png" style="width: 100%" />
+                </div>
+
+                <div class="slide fade">
+                  <img src="assets/mplus/mplus2.png" style="width: 100%" />
+                </div>
+
+                <div class="slide fade">
+                  <img src="assets/mplus/mplus3.png" style="width: 100%" />
+                </div>
+
+                <div class="slide fade">
+                  <img src="assets/mplus/mplus4.png" style="width: 100%" />
+                </div>
+
+                <div class="slide fade">
+                  <img src="assets/mplus/mplus5.png" style="width: 100%" />
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1, 'slideshow-2')"
+                  >&#10094;</a
+                >
+                <a class="next" onclick="plusSlides(1, 'slideshow-2')"
+                  >&#10095;</a
+                >
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">mplus-autopart</h3>
+              <p class="project-description">
+                A comprehensive e-commerce and product management system built
+                specifically for the automotive parts industry. It serves as
+                both a public-facing catalog for customers and a secure
+                management dashboard for administrators.
+              </p>
+              <div class="tech-stack">
+                <span class="tech-tag">Next.js</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">MongoDB</span>
+              </div>
+              <div class="project-links">
+                <a
+                  href="https://mplusautoparts.com"
+                  class="project-link"
+                  aria-label="View live demo"
+                  target="_blank"
+                >
+                  <i class="fas fa-external-link-alt"></i>
+                  Live Demo
+                </a>
+                <a
+                  href="https://github.com/panaikornkku/mplusautoparts"
+                  class="project-link secondary"
+                  aria-label="View GitHub repository"
+                  target="_blank"
+                >
+                  <i class="fab fa-github"></i>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section
+      id="contact"
+      class="contact fade-in"
+      aria-labelledby="contact-title"
+    >
+      <div class="container">
+        <h2 id="contact-title" class="section-title">
+          <i class="fas fa-comments"></i> Get In Touch
+        </h2>
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h3>Email</h3>
+                <a href="mailto:panaikorn.manee@gmail.com"
+                  >panaikorn.manee@gmail.com</a
+                >
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div class="contact-details">
+                <h3>LinkedIn</h3>
+                <a
+                  href="www.linkedin.com/in/panaikorn"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >linkedin.com/in/panaikorn</a
+                >
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="contact-details">
+                <h3>GitHub</h3>
+                <a
+                  href="https://github.com/panaikornkku"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >github.com/panaikornkku</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="social-links">
+        <a
+          href="https://github.com/panaikornkku"
+          class="social-link"
+          aria-label="GitHub"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://linkedin.com/in/panaikorn"
+          class="social-link"
+          aria-label="LinkedIn"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+      <p>&copy; 2026 Panaikorn. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
